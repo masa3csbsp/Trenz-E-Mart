@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -10,9 +10,16 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    
+    <!-- Mount Point for React App -->
     <div id="root"></div>
-<script
-  src='https://cdn.jotfor.ms/agent/embedjs/0197d57ca8d57f26bdfb5b627b7293910fed/embed.js?skipWelcome=1&maximizable=1'>
-</script>
+
+    <!-- Your React app will automatically bundle and load here via index.js -->
+
+    <!-- Move Jotform script after root to avoid blocking -->
+    <script
+      src="https://cdn.jotfor.ms/agent/embedjs/0197d57ca8d57f26bdfb5b627b7293910fed/embed.js?skipWelcome=1&maximizable=1"
+      defer
+    ></script>
   </body>
 </html>
