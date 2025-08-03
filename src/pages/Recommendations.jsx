@@ -15,7 +15,7 @@ const Recommendations = ({ recommendations }) => {
     <Box
       sx={{
         minHeight: '100vh',
-        backgroundImage: 'url("/assets/Back.jpg")',
+        backgroundImage: 'url("/Trenz-E-Mart/assets/Back.jpg")',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
          backgroundPosition: 'center',

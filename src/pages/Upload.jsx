@@ -22,7 +22,7 @@ const Upload = ({ onImageAnalyze }) => {
     <Box
       sx={{
         minHeight: '100vh',
-        backgroundImage: 'url(/assets/Background.jpg)', // 👈 your background image path
+        backgroundImage: 'url(/Trenz-E-Mart/assets/Background.jpg)', // 👈 your background image path
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         display: 'flex',

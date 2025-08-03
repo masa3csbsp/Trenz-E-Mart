@@ -12,12 +12,12 @@ const generateUniqueId = () => {
 };
 
 const dummyProducts = [
-  { name: 'pink', image: '/assets/pink.jpg', type: 'dress' },
-  { name: 'Watch', image: '/assets/watch.jpg', type: 'watch' },
-  { name: 'Jacky', image: '/assets/Jacky.jpg', type: 'dress' },
-  { name: 'green', image: '/assets/green.jpg', type: 'shirt' },
-  { name: 'Sunglass', image: '/assets/Sunglass.jpg', type: 'glasses' },
-  { name: 'Sherwani', image: '/assets/sherwani.jpg', type: 'sherwani' },
+  { name: 'pink', image: '/Trenz-E-Mart/assets/pink.jpg', type: 'dress' },
+  { name: 'Watch', image: '/Trenz-E-Mart/assets/watch.jpg', type: 'watch' },
+  { name: 'Jacky', image: '/Trenz-E-Mart/assets/Jacky.jpg', type: 'dress' },
+  { name: 'green', image: '/Trenz-E-Mart/assets/green.jpg', type: 'shirt' },
+  { name: 'Sunglass', image: '/Trenz-E-Mart/assets/Sunglass.jpg', type: 'glasses' },
+  { name: 'Sherwani', image: '/Trenz-E-Mart/assets/sherwani.jpg', type: 'sherwani' },
 ];
 
 const TryOn = () => {
