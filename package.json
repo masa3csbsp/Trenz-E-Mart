@@ -2,7 +2,7 @@
   "name": "my-shopping-ai",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://masa3csbsp.github.io/Trenz-E-Mart",
+  "homepage": "https://masa3csbsp.github.io",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
